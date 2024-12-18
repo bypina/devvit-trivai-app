@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Trivia Web View</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1 id="questionArea">Loading question...</h1>
+    <h3 id="usernameArea">username...</h3>
+    <h3 id="answerArea" style="display:none;"></h3>
+
+    <div class="input-section">
+      <input type="text" id="answerInput" placeholder="Type your answer"/>
+      <button id="submitBtn">Submit</button>
+    </div>
+
+    <div class="result" id="resultArea"></div>
+    <div class="scoreboard" id="scoreboardArea"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
